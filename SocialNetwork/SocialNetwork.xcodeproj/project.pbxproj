@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D240E13D2BE8ED7E003B934C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D240E13B2BE8ED7E003B934C /* Preview Assets.xcassets */; };
 		D2F3E7932BD258A3005EFB33 /* SocialNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F3E7922BD258A3005EFB33 /* SocialNetworkApp.swift */; };
 		D2F3E7952BD258A3005EFB33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F3E7942BD258A3005EFB33 /* ContentView.swift */; };
 		D2F3E7972BD258A5005EFB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F3E7962BD258A5005EFB33 /* Assets.xcassets */; };
-		D2F3E79A2BD258A5005EFB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F3E7992BD258A5005EFB33 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D240E13B2BE8ED7E003B934C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2F3E78F2BD258A3005EFB33 /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F3E7922BD258A3005EFB33 /* SocialNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkApp.swift; sourceTree = "<group>"; };
 		D2F3E7942BD258A3005EFB33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2F3E7962BD258A5005EFB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2F3E7992BD258A5005EFB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2F3E79F2BD258A5005EFB33 /* SocialNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F3E7A92BD258A5005EFB33 /* SocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,9 +65,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D240E13C2BE8ED7E003B934C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D240E13B2BE8ED7E003B934C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D2F3E7862BD258A3005EFB33 = {
 			isa = PBXGroup;
 			children = (
+				D240E13C2BE8ED7E003B934C /* Preview Content */,
 				D2F3E7912BD258A3005EFB33 /* SocialNetwork */,
 				D2F3E7902BD258A3005EFB33 /* Products */,
 			);
@@ -89,17 +98,8 @@
 				D2F3E7922BD258A3005EFB33 /* SocialNetworkApp.swift */,
 				D2F3E7942BD258A3005EFB33 /* ContentView.swift */,
 				D2F3E7962BD258A5005EFB33 /* Assets.xcassets */,
-				D2F3E7982BD258A5005EFB33 /* Preview Content */,
 			);
 			path = SocialNetwork;
-			sourceTree = "<group>";
-		};
-		D2F3E7982BD258A5005EFB33 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2F3E7992BD258A5005EFB33 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F3E79A2BD258A5005EFB33 /* Preview Assets.xcassets in Resources */,
+				D240E13D2BE8ED7E003B934C /* Preview Assets.xcassets in Resources */,
 				D2F3E7972BD258A5005EFB33 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
